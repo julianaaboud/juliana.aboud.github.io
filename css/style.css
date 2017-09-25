@@ -1,0 +1,90 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+section h3{
+    min-width: 220px;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #D3D3D3;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer{
+        background-color: #D3D3D3;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+.header h2{
+    margin-top: 0;
+}
+
+.imagem-perfil{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.navegacao-list-item{
+    display: inline;
+    margin: 15px;
+}
+
+.navegacao{
+   padding-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+a:hover{
+    color: blue;
+}
+
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: justify;
+}
+
+section{
+    display: flex;
+    border-bottom: 1px solid #D3D3D3;
+    margin-right: 50px;
+}
+
+ul{
+    padding: 0;
+}
+
+section ul li{
+    list-style: none;
+}
+
+h4{
+    margin-bottom: 0;
+}
+
+h5{
+    margin-top: 0;
+}
+
+.voluntario p{
+    margin-top: 0;
+}
