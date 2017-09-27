@@ -1,0 +1,168 @@
+
+/*Imagens*/
+.imagem-celular{
+    max-width: 300px;
+    max-height: 300px;
+}
+    @media screen and (max-width:768px){
+   .imagem-celular{
+    width: 40%;
+    height: 70%;
+    }
+}
+
+.imagem-logo{
+    width: 30%;
+    height: 40%;
+}
+    @media screen and (max-width:768px){
+   .imagem-logo{
+    width: 40%;
+    height: 30%;
+    }
+}
+
+.botao{
+    max-width: 15%;
+    max-height: 15%;
+    padding: 3%;
+}
+
+.logo-footer{
+    max-width: 25%;
+    max-height: 10%;
+}
+
+/*Títulos*/
+
+h1{
+    font-size: 40px;
+}
+
+    @media screen and (max-width:768px){
+        h1 {
+            font-size: 15px;
+        }
+    }
+
+h2{
+    font-size: 30px;
+    color: blue;
+    margin: 0;
+}
+    @media screen and (max-width:768px){
+        h2 {
+            font-size: 20px;
+        }
+    }
+
+h3{
+    color: blue;
+}
+
+/*Componentes*/
+
+body{ 
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    padding: 4%;
+}
+    @media screen and (max-width: 768px){
+        body {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        
+    }
+
+.componentes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+    @media screen and (max-width: 768px){
+        .cadastro{
+            width: 50%;
+        }
+    }
+
+.trio{
+    display: flex;
+    flex-direction: row;
+}
+    @media screen and (max-width: 768px){
+        .trio{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+.cta{
+    display: flex;
+    align-items: row;
+    justify-content: center;
+}
+
+.insere-email{
+    width: 80%;
+    height: 10%;
+    margin: 30px;
+}  
+    @media screen and (max-width: 768px){
+        .insere-email {
+            width: 90%;
+             height: 10%;
+             margin: 10px;
+        }
+    }
+
+.botao-convite{
+    width: 80%;
+    height: 15%;
+}
+      @media screen and (max-width: 768px){
+        .botao-convite {
+            width: 95%;
+            height: 15%;
+        }
+    }
+
+
+header{
+    padding-bottom: 3%;
+    background-color: #b3e5fc;
+}
+
+.maiusculo{
+    text-transform: uppercase;
+}
+
+.itens{
+    width: 50%;
+    height: 30%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.container{
+    background-color: #29b6f6;
+}
+
+.cta-aplicativo{
+    background-color: #b3e5fc;
+    padding: 3%;
+}
